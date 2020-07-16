@@ -26,7 +26,13 @@ function promptUser() {
             type: "list",
             name: "license",
             message: "What kind of license should your project have?",
-            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+            choices: [
+                "MIT",
+                "Apache%202.0",
+                "GPLv3",
+                "BSD%203--Clause",
+                "None",
+            ],
         },
         {
             type: "input",
@@ -57,6 +63,8 @@ function promptUser() {
 function generateReadMe(response) {
     return `
 # ${response.Title}
+![NPM version](https://img.shields.io/badge/npm-6.14.4-green)
+![GitHub license](https://img.shields.io/badge/License-${response.license}-blue.svg)
 
 ## Description
 ${response.description} 
@@ -71,7 +79,10 @@ ${response.description}
 
 ## Installation
 To install necessary dependencies, run the following command:
-    ${response.installation}
+~~~
+${response.installation}
+~~~
+
 ## Usage
 ${response.usage}
 
@@ -83,7 +94,10 @@ ${response.contribution}
 
 ## Tests
 To run tests, run the following command:
-    ${response.test}
+~~~
+${response.test}
+~~~
+
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at ${response.email}.
 
