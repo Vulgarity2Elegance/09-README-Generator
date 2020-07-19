@@ -78,8 +78,8 @@ Because this is a CLI App, there will be no need to deploy it to Heroku. This ti
 
 ## Screenshots
 
-[!README](./assets/README.png)
+![README](./assets/README.png)
 
-[!PREVIEW](./assets/PREVIEW.png)
+![PREVIEW](./assets/PREVIEW.png)
 
 Please follow this link (https://youtu.be/1CGWNdJmMgc) to see its functionality.
