@@ -4,7 +4,7 @@
 ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
-A command line application can generate README file quickly. 
+A command-line application will allow for quick and easy generation of a project README to get started quickly. 
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -21,7 +21,7 @@ npm i
 ~~~
 
 ## Usage
-Geed2Code
+None.
 
 ## License
 This project is licensed under the MIT.
@@ -32,7 +32,7 @@ None.
 ## Tests
 To run tests, run the following command:
 ~~~
-npm test
+npm run test
 ~~~
 
 ## Questions
